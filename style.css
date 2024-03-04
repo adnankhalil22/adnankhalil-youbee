@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: block;
+}
+header{
+    padding: 10px 20px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    /* padding: 15px; */
+    display: block;
+}
+.navbar a:hover{
+    background-color: gold
+}
+.navbar li{
+    list-style: none;
+}
+.ak5{
+    display: flex;
+    gap:20px;
+}
+h2{
+    display: block;
+
+    font-weight: bold;
+
+}
+.Welcome{
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    text-align: center;
+}
+.list{
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+.list li{
+list-style: none;
+}
+
+.idk{
+    background-color:black;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+tr:hover{
+    background-color: gold;
+}
+.pic img{
+    height: 50%;
+    width: 50%;
+    cursor: pointer;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  footer{
+    padding: auto;
+    text-align: center;
+    color: aliceblue;
+  }
+  .list:hover{
+    color: gold;
+  }
+
+.table_heading{
+    margin: 10px;
+}
+
+
+
+
